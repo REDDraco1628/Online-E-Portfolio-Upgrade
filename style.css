@@ -1,0 +1,96 @@
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.landing__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.name__position {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__name {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.nav__owner {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.nav__buttons ul {
+    display: flex;
+    list-style: none;
+    margin-left: 1275px;
+    padding: 0;
+}
+
+.nav__btn {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 18px;
+    color: black;
+    transition: all 450ms ease;
+}
+
+.nav__btn:hover {
+    color: grey;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px 5px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.background--animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.website__animation {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
