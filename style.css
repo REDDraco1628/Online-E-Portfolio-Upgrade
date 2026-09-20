@@ -91,7 +91,7 @@ a {
 /* About me Section */
 
 #about__me {
-    height: 50vh;
+    height: 100vh;
     padding: 50px 0;
 }
 
@@ -183,7 +183,7 @@ a {
 .portfolio__title--area {
     display: flex;
     flex-direction: column;
-    margin-top: 125px;
+    margin-top: 150px;
 }
 
 .portfolio__title {
@@ -226,4 +226,45 @@ a {
     .lang__img--para {
         opacity: 1;
     }
+}
+
+//contact//
+
+#contact {
+    height: 100vh;
+}
+
+.contact__containment {
+    display: flex;
+    flex-direction: column;
+    margin-top: 240px;
+}
+
+.contact__title--area {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contact__subtitle {
+    font-size: 18px;
+}
+
+.contact__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__methods {
+    list-style: none;
+}
+
+.contact__method {
+    font-size: 16px;
+    line-height: 1.5;
 }
