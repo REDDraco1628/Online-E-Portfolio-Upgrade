@@ -305,11 +305,50 @@ a {
 }
 
 .contact__method {
-    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
     line-height: 1.5;
 }
 
+.contact__btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all 450ms ease;
+}
+
+.contact__btn:hover {
+    background-color: grey;
+    color: red;
+}
+
+.contact__methods--container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 125px;
+}
+
+.contact__img {
+    display: flex;
+    width: 90%;
+    margin-left: 125px;
+}
+
 /* Hours */
+
+#hours {
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.hour__section--container {
+    display: flex;
+    flex-direction: column;
+}
 
 .hours__title {
     display: flex;
@@ -325,5 +364,28 @@ a {
 
 .hours__subtitle {
     font-size: 18px;
+    margin-top: -15px;
 }
 
+.hours__container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.hours__img {
+    width: 90%;
+    margin-right: 150px;
+}
+
+.hours__days--list {
+    display: flex;
+    list-style: none;
+}
+
+.days__hours {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
