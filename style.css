@@ -308,3 +308,22 @@ a {
     font-size: 16px;
     line-height: 1.5;
 }
+
+/* Hours */
+
+.hours__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hours__title--true {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.hours__subtitle {
+    font-size: 18px;
+}
+
