@@ -400,6 +400,7 @@ a {
 .footer__container--row {
     display: flex;
     flex-direction: row;
+    position: relative;
     justify-content: center;
 }
 
@@ -425,19 +426,37 @@ a {
 
 .footer__links {
     display: flex;
-    position: relative;
     justify-content: center;
-    
+    position: relative;
 }
 
 .footer__links--list {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer__link {
     display: flex;
+    justify-content: center;
+    text-align: center;
     list-style: none;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
+    transition: all 450ms ease;
+}
+
+.footer__link:hover {
+    scale: 1.08;
+    color: red;
+
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: -150px;
 }
